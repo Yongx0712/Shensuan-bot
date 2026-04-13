@@ -1,0 +1,38 @@
+# Python缓存/编译文件
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# 环境变量/密钥文件
+.env
+*.key
+*.secret
+# 音频文件（语音合成生成的mp3）
+*.mp3
+# IDE配置
+.idea/
+.vscode/
+*.swp
+*.swo
+# 数据库/向量库文件（若不需要上传本地Qdrant数据）
+local_qdrand/
+# 日志文件
+*.log
